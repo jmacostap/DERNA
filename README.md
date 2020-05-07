@@ -29,14 +29,14 @@ Se propone entonces elaborar un programa capaz de diseñar, generar, entrenar, p
 ## General
 Desarrollar una aplicación que genere mediante diseño evolutivo Redes Neuronales Artificiales para predecir series de tiempo financieras.
 ## Específicos
-- Realizar una investigación sobre librerías de RNA disponibles para seleccionar las que se usarán en este proyecto, que incluya algoritmos genéticos para desarrollo evolutivo y RNA.
-- Investigar sobre fuentes de datos disponibles para series de tiempo financieras y determinar la que se usará en este proyecto.
-- Elaborar el diseño general de la aplicación en base a la metodología propuesta, lo cual incluye:
-  - Interfaz usuario
-  - Fuentes de datos
-  - Modelo de interacción
-  - Funcionalidades básicas.
-- Crear la lista de características de la aplicación, es decir, escoger los elementos operacionales y de diseño que va a manejar el diseño evolutivo, tales como preparación de los datos, escogencia de las ventanas de muestreo, selección de los parámetros de entrada, funciones de activación, cantidad y tipo de neuronas, forma de entrenamiento y prueba.
-- Planificar el desarrollo de las características.
-- Evaluar las características seleccionadas.
-- Redactar el informe del trabajo de grado y las conclusiones..
+- [x] Realizar una investigación sobre librerías de RNA disponibles para seleccionar las que se usarán en este proyecto, que incluya algoritmos genéticos para desarrollo evolutivo y RNA.
+- [x] Investigar sobre fuentes de datos disponibles para series de tiempo financieras y determinar la que se usará en este proyecto.
+- [ ] Elaborar el diseño general de la aplicación en base a la metodología propuesta, lo cual incluye:
+   - [ ] Interfaz usuario
+   - [ ] Fuentes de datos
+   - [ ] Modelo de interacción
+   - [ ] Funcionalidades básicas.
+- [ ] Crear la lista de características de la aplicación, es decir, escoger los elementos operacionales y de diseño que va a manejar el diseño evolutivo, tales como preparación de los datos, escogencia de las ventanas de muestreo, selección de los parámetros de entrada, funciones de activación, cantidad y tipo de neuronas, forma de entrenamiento y prueba.
+- [ ] Planificar el desarrollo de las características.
+- [ ] Evaluar las características seleccionadas.
+- [ ] Redactar el informe del trabajo de grado y las conclusiones..
