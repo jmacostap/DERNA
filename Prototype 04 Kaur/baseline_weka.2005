@@ -1,0 +1,247 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     GSPCext-weka.filters.unsupervised.attribute.Remove-R6-10,12-13,20,26-29,31-35-weka.filters.unsupervised.instance.RemoveRange-R1-19396
+Instances:    3797
+Attributes:   19
+              Open
+              High
+              Low
+              Close
+              Volume
+              Return
+              %K14
+              %D3
+              Slow%D3
+              Momentum
+              ROC
+              %R
+              MA5
+              MA10
+              Disparity5
+              Disparity10
+              OSCP
+              CCI
+              RSI
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear Node 0
+    Inputs    Weights
+    Threshold    -3.870903712861109E-4
+    Node 1    1.1969780727658468
+    Node 2    -1.727613647521667
+    Node 3    -1.623795782700696
+    Node 4    -1.5105784015651067
+    Node 5    2.3418850172903567
+    Node 6    1.8830818589592373
+    Node 7    -1.30211246771919
+    Node 8    0.9557590840576585
+    Node 9    -1.4311139151187526
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.4038188262329587
+    Attrib Open    -2.7012079592298983
+    Attrib High    0.1095756475495322
+    Attrib Low    -0.3500692355542006
+    Attrib Close    1.3171717898559265
+    Attrib Volume    0.006805549066498914
+    Attrib %K14    0.2471729223747436
+    Attrib %D3    -0.3862076473434757
+    Attrib Slow%D3    0.11124266932523698
+    Attrib Momentum    0.41787295815587333
+    Attrib ROC    -0.16095891223456696
+    Attrib %R    -0.19954759380333023
+    Attrib MA5    0.976122332985332
+    Attrib MA10    0.8050696759095269
+    Attrib Disparity5    0.661747797823361
+    Attrib Disparity10    0.09043756142007767
+    Attrib OSCP    0.2894051702821934
+    Attrib CCI    0.12500743589137867
+    Attrib RSI    0.11419297583201879
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -2.3865912054220724
+    Attrib Open    5.635684261062445
+    Attrib High    0.017270763262524958
+    Attrib Low    0.2347052814184711
+    Attrib Close    -2.4426033765072095
+    Attrib Volume    0.4442169696513134
+    Attrib %K14    -0.046755958905131643
+    Attrib %D3    0.29778280487716097
+    Attrib Slow%D3    -0.2958506977378689
+    Attrib Momentum    -0.3590708698263962
+    Attrib ROC    0.5564511058998883
+    Attrib %R    0.04564863173942453
+    Attrib MA5    -1.9743960689658244
+    Attrib MA10    -2.1196918787882697
+    Attrib Disparity5    -0.715504128365897
+    Attrib Disparity10    -0.21155204786971976
+    Attrib OSCP    -1.0484241329857167
+    Attrib CCI    0.04943416652782716
+    Attrib RSI    -0.37194111759881904
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -3.5507653562960537
+    Attrib Open    5.213595922696346
+    Attrib High    0.1956647285841518
+    Attrib Low    0.6270417838762228
+    Attrib Close    -2.531722569287918
+    Attrib Volume    0.7710387773582905
+    Attrib %K14    0.0798725201774015
+    Attrib %D3    0.7752527110193321
+    Attrib Slow%D3    -0.297947282296944
+    Attrib Momentum    -0.4934958705677035
+    Attrib ROC    -0.4470244892884654
+    Attrib %R    -0.07297775435319197
+    Attrib MA5    -2.7926366319950424
+    Attrib MA10    -2.9334722700959155
+    Attrib Disparity5    0.8717197430949076
+    Attrib Disparity10    0.7559929531114714
+    Attrib OSCP    -0.07182099729851503
+    Attrib CCI    -0.12267579576946555
+    Attrib RSI    -1.854780257022034
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -2.309524599530535
+    Attrib Open    3.5002185305621416
+    Attrib High    -0.25072293150623426
+    Attrib Low    0.2183541279505059
+    Attrib Close    -1.4142913306027283
+    Attrib Volume    -0.1577610614810602
+    Attrib %K14    -0.06349199557061064
+    Attrib %D3    0.7963238512257291
+    Attrib Slow%D3    -0.04953893048783946
+    Attrib Momentum    -1.4082009613161728
+    Attrib ROC    1.1332111811056753
+    Attrib %R    0.11786587994328046
+    Attrib MA5    -0.9079050819389437
+    Attrib MA10    -0.6993919792637439
+    Attrib Disparity5    -1.247437241560933
+    Attrib Disparity10    -0.8813993241190211
+    Attrib OSCP    -0.1962782840102647
+    Attrib CCI    -0.07620191792148417
+    Attrib RSI    -0.06421127366838893
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -3.3794905037775407
+    Attrib Open    -8.446078118946916
+    Attrib High    -0.2418649788413326
+    Attrib Low    -2.119665766198389
+    Attrib Close    3.228604282137042
+    Attrib Volume    0.6661079426404406
+    Attrib %K14    0.09163857423220133
+    Attrib %D3    0.20157770189208452
+    Attrib Slow%D3    -0.2756281067235946
+    Attrib Momentum    0.2914718217512637
+    Attrib ROC    0.21325530337595974
+    Attrib %R    -0.08555046149115349
+    Attrib MA5    2.860830158080594
+    Attrib MA10    2.605545470203367
+    Attrib Disparity5    0.3229210433790007
+    Attrib Disparity10    0.23368073733913375
+    Attrib OSCP    -0.7205814051500942
+    Attrib CCI    -0.08186981959193167
+    Attrib RSI    -1.3485861483532506
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -2.470452166741603
+    Attrib Open    -5.9368874893139925
+    Attrib High    0.38725061423285073
+    Attrib Low    -1.151722683005588
+    Attrib Close    2.669531175999256
+    Attrib Volume    0.3124320090360278
+    Attrib %K14    0.10750403591095539
+    Attrib %D3    -0.355447660670369
+    Attrib Slow%D3    0.2770615596878661
+    Attrib Momentum    0.6783933915004501
+    Attrib ROC    -0.6383951365270988
+    Attrib %R    -0.13837387458978978
+    Attrib MA5    1.9932095441179971
+    Attrib MA10    1.697744437339462
+    Attrib Disparity5    0.9144478639167545
+    Attrib Disparity10    0.5671908568969988
+    Attrib OSCP    -0.03817508720729586
+    Attrib CCI    -0.186409321498518
+    Attrib RSI    -0.4597509875990484
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -2.500832206995064
+    Attrib Open    4.077618240491525
+    Attrib High    -0.008062564562945396
+    Attrib Low    0.2775951437076234
+    Attrib Close    -1.758170836117252
+    Attrib Volume    0.42864801411745435
+    Attrib %K14    0.15494124395151804
+    Attrib %D3    -0.965751849254603
+    Attrib Slow%D3    0.0842627087789604
+    Attrib Momentum    0.1938380452490562
+    Attrib ROC    0.13805476856162094
+    Attrib %R    -0.19660488196333498
+    Attrib MA5    -1.7340114170163272
+    Attrib MA10    -1.79452607870099
+    Attrib Disparity5    0.09453345144373657
+    Attrib Disparity10    -0.23602191479869888
+    Attrib OSCP    0.2552911280844817
+    Attrib CCI    -0.11542077845239145
+    Attrib RSI    -0.37595986919156954
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -5.396561105207941
+    Attrib Open    -3.492284377323381
+    Attrib High    0.31384030307950217
+    Attrib Low    -0.8020597481257244
+    Attrib Close    1.8828203365591496
+    Attrib Volume    0.4087372827004294
+    Attrib %K14    0.20212586670697574
+    Attrib %D3    -3.68387842497177
+    Attrib Slow%D3    -0.24172886725296988
+    Attrib Momentum    0.1246290801407441
+    Attrib ROC    -2.133054797199109
+    Attrib %R    -0.19241275010940126
+    Attrib MA5    0.905717449553821
+    Attrib MA10    0.8061199109574744
+    Attrib Disparity5    1.4961890493996808
+    Attrib Disparity10    -0.26229287154366565
+    Attrib OSCP    1.6675565080439436
+    Attrib CCI    -0.07537604457636184
+    Attrib RSI    1.5072392682407754
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -3.064120024043614
+    Attrib Open    2.2699328734574746
+    Attrib High    -0.2586766324352242
+    Attrib Low    0.15368159339782989
+    Attrib Close    -0.9907170432243596
+    Attrib Volume    0.1948246913919978
+    Attrib %K14    0.795567606067468
+    Attrib %D3    -0.36166317037361767
+    Attrib Slow%D3    -0.28953671080151744
+    Attrib Momentum    -1.6956829817123207
+    Attrib ROC    0.3087189015647946
+    Attrib %R    -0.8000850551075986
+    Attrib MA5    -0.6929838636056634
+    Attrib MA10    -0.5042067584463517
+    Attrib Disparity5    -0.7341593377168899
+    Attrib Disparity10    -1.1662371748119278
+    Attrib OSCP    0.9333955425204662
+    Attrib CCI    -0.243386873030241
+    Attrib RSI    0.1445398877257247
+Class 
+    Input
+    Node 0
+
+
+Time taken to build model: 5.88 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.9353
+Mean absolute error                      0.0028
+Root mean squared error                  0.0045
+Relative absolute error                 36.0338 %
+Root relative squared error             35.9867 %
+Total Number of Instances             3797     
+
